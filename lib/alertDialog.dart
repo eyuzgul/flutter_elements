@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class AlertDialogPage extends StatefulWidget {
+  AlertDialogPage({Key key, this.title}) : super(key: key);
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _AlertDialogPageState createState() => _AlertDialogPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _AlertDialogPageState extends State<AlertDialogPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
             RaisedButton(
               color: Colors.pinkAccent,
               child: Text(
-                "Deneme",
+                "Denemeee",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.white,
